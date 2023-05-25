@@ -1,0 +1,40 @@
+{
+  "name": "hirehub",
+  "version": "1.0.0",
+  "description": "[![npm version](https://badge.fury.io/js/npm.svg)](https://badge.fury.io/js/npm) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-see-pixels/hirehub-backend.git"
+  },
+  "author": "Himanshu Siddhant Hitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-see-pixels/hirehub-backend/issues"
+  },
+  "homepage": "https://github.com/i-see-pixels/hirehub-backend#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cloudinary": "^1.37.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "locus": "^2.0.4",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.11.1",
+    "mongoose-paginate-v2": "^1.6.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.3.0"
+  }
+}
