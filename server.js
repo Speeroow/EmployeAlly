@@ -25,10 +25,10 @@ mongoose.connect(URI)
 });
 
 //SESSION CONFIGURATION
-const sessionPass = 'randompasswordforsession';
+
 app.use(
 	session({
-		secret: sessionPass,
+		secret:'randompasswordforsession',
 		resave: false,
 		saveUninitialized: true,
 		// store: MongoStore.create({
