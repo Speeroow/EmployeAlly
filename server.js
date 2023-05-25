@@ -25,7 +25,7 @@ mongoose.connect(URI)
 });
 
 //SESSION CONFIGURATION
-const sessionPass = process.env.SESSION_PASS;
+const sessionPass = 'randompasswordforsession';
 app.use(
 	session({
 		secret: sessionPass,
