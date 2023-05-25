@@ -10,7 +10,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
 	cloudinary,
 	params: {
-		folder: 'HireHub',
+		folder: 'EmployeAlly',
 		allowedFormats: [ 'jpeg', 'png', 'jpg' ]
 	}
 });
