@@ -26,9 +26,10 @@ mongoose.connect(URI)
 
 //SESSION CONFIGURATION
 
+const sessionPass = process.env.SESSION_PASS;
 app.use(
 	session({
-		secret:'randompasswordforsession',
+		secret: sessionPass,
 		resave: false,
 		saveUninitialized: true,
 		// store: MongoStore.create({
